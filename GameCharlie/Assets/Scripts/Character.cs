@@ -55,7 +55,6 @@ public class Character : MonoBehaviour {
     
     public void Fly()
     {
-        Debug.Log("Holi");
         rgb.AddForce(Vector2.up * 250f);
         anim.SetBool("InFloor", false);
     }

@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Floor
+  - Obstaculo
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - 
   - 
   - Floor
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -50,6 +51,9 @@ TagManager:
     locked: 0
   - name: Sealing
     uniqueID: 1800694815
+    locked: 0
+  - name: Obstacle
+    uniqueID: 1363387037
     locked: 0
   - name: Character
     uniqueID: 2233376553

@@ -7,6 +7,7 @@ public class GameController : MonoBehaviour {
     public bool gameOver = false;
     public static GameController instance;
     public Text score;
+
 	// Use this for initialization
 	void Start () {
         instance = this;
